@@ -1,15 +1,9 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import './styles.css';
-import './vars.css';
+import "../global.css";
+import "../styleguide.css";
+import React from "react";
+import ReactDOMClient from "react-dom/client";
+import { Bentolio } from "./screens/Bentolio";
 
-import App from "./App";
-
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+const app = document.getElementById("app");
+const root = ReactDOMClient.createRoot(app);
+root.render(<Bentolio />);
