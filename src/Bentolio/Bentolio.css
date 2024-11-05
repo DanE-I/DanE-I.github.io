@@ -1,0 +1,422 @@
+.bentolio,
+.bentolio * {
+  box-sizing: border-box;
+}
+.bentolio {
+  background: var(--background, #f9f1f0);
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.socials {
+  background: var(--primary, #fadcd9);
+  border-radius: var(--rounded, 20px);
+  width: 448px;
+  height: 101px;
+  position: absolute;
+  left: 968px;
+  top: 899px;
+  overflow: hidden;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 334px;
+  position: absolute;
+  left: calc(50% - 167px);
+  top: calc(50% - 5.5px);
+}
+.instagram {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Light", sans-serif;
+  font-size: 15.000000953674316px;
+  font-weight: 300;
+  text-transform: uppercase;
+  position: relative;
+}
+.twitter {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Light", sans-serif;
+  font-size: 15.000000953674316px;
+  font-weight: 300;
+  text-transform: uppercase;
+  position: relative;
+}
+.linkedin {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Light", sans-serif;
+  font-size: 15.000000953674316px;
+  font-weight: 300;
+  text-transform: uppercase;
+  position: relative;
+}
+.contact {
+  background: var(--secondary, #f8afa6);
+  border-radius: var(--rounded, 20px);
+  width: 448px;
+  height: 351px;
+  position: absolute;
+  left: 496px;
+  top: 649px;
+  overflow: hidden;
+}
+.contact-me {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 55.000003814697266px;
+  font-weight: 500;
+  position: absolute;
+  left: 24px;
+  top: 259px;
+}
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 400px;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 30px;
+}
+.have-some-questions {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Light", sans-serif;
+  font-size: 15.000000953674316px;
+  font-weight: 300;
+  position: relative;
+}
+.arrow {
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  position: relative;
+  overflow: visible;
+}
+.about {
+  background: var(--primary, #fadcd9);
+  border-radius: var(--rounded, 20px);
+  width: 448px;
+  height: 351px;
+  position: absolute;
+  left: 24px;
+  top: 649px;
+  overflow: hidden;
+}
+.julia-huang-is-an-innovative-ai-artist-renowned-for-blending-cutting-edge-technology-with-creative-expression-based-in-la-she-crafts-unique-digital-art-experiences-accessible-globally {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Light", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  position: absolute;
+  left: 24px;
+  top: calc(50% - 20.5px);
+  width: 296px;
+}
+.circle-icon {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 24px;
+  top: 32px;
+  overflow: visible;
+}
+.work {
+  background: var(--primary, #fadcd9);
+  border-radius: var(--rounded, 20px);
+  width: 447px;
+  height: 726px;
+  position: absolute;
+  left: 968px;
+  top: 149px;
+  overflow: hidden;
+}
+.item-4 {
+  position: absolute;
+  inset: 0;
+}
+.zephyr {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  left: 24px;
+  top: 651px;
+}
+.item-3 {
+  position: absolute;
+  inset: 0;
+}
+.border {
+  margin-top: -2px;
+  border-style: solid;
+  border-color: var(--secondary, #f8afa6);
+  border-width: 2px 0 0 0;
+  width: 399px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 199.5px);
+  top: 609px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.verve {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  left: 24px;
+  top: 538px;
+}
+.item-2 {
+  position: absolute;
+  inset: 0;
+}
+.border2 {
+  margin-top: -2px;
+  border-style: solid;
+  border-color: var(--secondary, #f8afa6);
+  border-width: 2px 0 0 0;
+  width: 399px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 199.5px);
+  top: 497px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.elara {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  left: 24px;
+  top: 425px;
+}
+.item-1 {
+  position: absolute;
+  inset: 0;
+}
+.border3 {
+  margin-top: -2px;
+  border-style: solid;
+  border-color: var(--secondary, #f8afa6);
+  border-width: 2px 0 0 0;
+  width: 399px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 199.5px);
+  top: 384px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.image {
+  border-radius: 16px;
+  width: 399px;
+  height: 269px;
+  position: absolute;
+  left: 24px;
+  top: 85px;
+  overflow: hidden;
+}
+.lilcoderman-pink-chair-sitting-on-table-in-a-room-in-the-style-8-f-5-e-5-aa-9-38-f-8-4-af-0-89-f-3-8572-b-0-ae-9362-1 {
+  width: 399px;
+  height: 400px;
+  position: absolute;
+  left: 0px;
+  top: -113px;
+  object-fit: cover;
+}
+.arrow-icon {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  left: 397px;
+  top: 36px;
+  overflow: visible;
+}
+.musea {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  left: 24px;
+  top: 34px;
+}
+.portrait {
+  border-radius: var(--rounded, 20px);
+  width: 330px;
+  height: 476px;
+  position: absolute;
+  left: 614px;
+  top: 149px;
+  overflow: hidden;
+}
+.image2 {
+  width: 355px;
+  height: 556px;
+  position: absolute;
+  left: -25px;
+  top: -19px;
+  object-fit: cover;
+}
+.slogan-intro {
+  background: var(--primary, #fadcd9);
+  border-radius: var(--rounded, 20px);
+  width: 565px;
+  height: 479px;
+  position: absolute;
+  left: 24px;
+  top: 146px;
+  overflow: hidden;
+}
+.artist-redefining-architecture-with-ai-driven-design {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 56.000003814697266px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  left: 24px;
+  top: calc(50% - 14.5px);
+  width: 475px;
+}
+.artist-redefining-architecture-with-ai-driven-design-span {
+  color: var(--text, #000000);
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 56.000003814697266px;
+  line-height: 100%;
+  font-weight: 700;
+}
+.artist-redefining-architecture-with-ai-driven-design-span2 {
+  color: var(--text, #000000);
+  font-family: "Gilroy-LightItalic", sans-serif;
+  font-size: 56.000003814697266px;
+  line-height: 100%;
+  font-weight: 300;
+  font-style: italic;
+}
+.artist-redefining-architecture-with-ai-driven-design-span3 {
+  color: var(--text, #000000);
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 56.000003814697266px;
+  line-height: 100%;
+  font-weight: 700;
+}
+.flower-icon {
+  width: 119px;
+  height: 119px;
+  position: absolute;
+  left: 416px;
+  top: 34px;
+  overflow: visible;
+}
+.header {
+  background: var(--primary, #fadcd9);
+  border-radius: var(--rounded, 20px);
+  width: 1392px;
+  height: 101px;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  overflow: hidden;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1343px;
+  position: absolute;
+  left: calc(50% - 672px);
+  top: calc(50% - 8.47px);
+}
+.logo {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+}
+.logo-span {
+  color: var(--text, #000000);
+  font-family: "Gilroy-LightItalic", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.logo-span2 {
+  color: var(--text, #000000);
+  font-family: "Gilroy-Light", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.logo-span3 {
+  color: var(--text, #000000);
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.page-links {
+  flex-shrink: 0;
+  width: 303px;
+  height: 11px;
+  position: static;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 303px;
+  position: absolute;
+  left: calc(50% - -368.5px);
+  top: 2.97px;
+}
+.projects {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Light", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+}
+.about2 {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Light", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+}
+.contact2 {
+  color: var(--text, #000000);
+  text-align: left;
+  font-family: "Gilroy-Light", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+}
