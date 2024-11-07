@@ -6,8 +6,8 @@
   "homepage": "https://DANE-I.github.io/",
   "scripts": {
     "predeploy": "if exist dist rd /s /q dist && npm run build",
-    "deploy": "gh-pages -d dist",
-    "build": "parcel build index.html --public-url ./",
+    "deploy": "gh-pages -b main -d dist", // Deploy to main branch
+    "build": "parcel build index.html --public-url /",  // Use root URL
     "dev": "parcel"
   },
   "dependencies": {
