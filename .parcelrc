@@ -11,5 +11,8 @@
   "reporters": [
     "...",
     "parcel-reporter-static-files-copy"
-  ]
+  ],
+  "optimizers": {
+    "*.js": ["@parcel/optimizer-terser"]
+  }
 }
