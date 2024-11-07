@@ -91,43 +91,30 @@ export const Bentolio = () => {
           </div>
         </div>
 
-        <div className="PORTRAIT" />
-
-        <div className="SLOGAN-INTRO">
-          <p className="artist-redefining">
-            <span className="span">Artist Redefining </span>
-
-            <span className="text-wrapper-4">Architecture</span>
-
-            <span className="span"> with AI-Driven Design</span>
-          </p>
-
-          <img
-            className="FLOWER-ICON"
-            alt="Flower ICON"
-            src="https://c.animaapp.com/pFe2ZkhT/img/flower-icon.svg"
-          />
-        </div>
-
         <header className="HEADER">
-          <div className="NAV">
-            <p className="LOGO">
-              <span className="text-wrapper-4">JULIA</span>
-
-              <span className="text-wrapper-5">&nbsp;</span>
-
-              <span className="text-wrapper-6">HUANG</span>
+          <nav className="NAV">
+            <img
+              className="arrow-icon"
+              alt="Navigation arrow"
+              src="/assets/icons/arrow-icon.svg"
+            />
+            <div className="text-wrapper-3">Musea</div>
+          </nav>
+          
+          <img className="portrait" alt="Artist portrait" src="/path/to/portrait.jpg" />
+          
+          <div className="slogan-intro">
+            <p className="artist-redefining">
+              <span>Artist Redefining </span>
+              <span className="highlight">Architecture</span>
+              <span> with AI-Driven Design</span>
             </p>
-
-            <div className="PAGE-LINKS">
-              <div className="frame">
-                <div className="text-wrapper-7">PROJECTS</div>
-
-                <div className="text-wrapper-7">ABOUT</div>
-
-                <div className="text-wrapper-7">CONTACT</div>
-              </div>
-            </div>
+            
+            <img
+              className="flower-icon"
+              alt="Decorative flower icon"
+              src="/assets/icons/flower-icon.svg"
+            />
           </div>
         </header>
       </div>
